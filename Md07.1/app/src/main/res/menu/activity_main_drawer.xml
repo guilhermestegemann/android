@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lista_contatos"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Lista de Contatos" />
+        <item
+            android:id="@+id/nav_add_contato"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Adicionar Contato" />
+        <item
+            android:id="@+id/nav_buscar_contato"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_fechar"
+            android:icon="@drawable/ic_clear_black_24dp"
+            android:title="Fechar" />
+    </group>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="server.com.br.appserverb.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvRotuloServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------Servidor--------" />
+
+    <TextView
+        android:id="@+id/txvEndServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnAtivarServidor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ativar Servidor" />
+
+    <TextView
+        android:id="@+id/txvRotuloClienteCn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliente conectado: " />
+
+    <TextView
+        android:id="@+id/txvClienteCn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txvRotuloMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensagens:" />
+
+    <TextView
+        android:id="@+id/txvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>

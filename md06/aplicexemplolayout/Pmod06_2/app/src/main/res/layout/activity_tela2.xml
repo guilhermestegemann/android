@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Nome Cadastrado:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/lblNome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblNome"
+        android:layout_toRightOf="@+id/lblNome"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/lblNomeCadastrado" />
+
+    <TextView
+        android:text="Sobrenome cadastrado:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/lblSobreNome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblSobreNome"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lblSobreNomeCadastrado" />
+
+    <TextView
+        android:text="Telefone Cadastrado:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblSobreNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/lblTelefone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblTelefone"
+        android:layout_toRightOf="@+id/lblSobreNome"
+        android:layout_toEndOf="@+id/lblSobreNome"
+        android:id="@+id/lblTelefoneCadastrado" />
+
+    <TextView
+        android:text="Email cadastrado:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblEmail"
+        android:layout_below="@+id/lblTelefone"
+        android:layout_toLeftOf="@+id/lblNomeCadastrado"
+        android:layout_toStartOf="@+id/lblNomeCadastrado"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblEmail"
+        android:layout_alignRight="@+id/lblTelefoneCadastrado"
+        android:layout_alignEnd="@+id/lblTelefoneCadastrado"
+        android:id="@+id/lblEmailCadastrado" />
+</RelativeLayout>

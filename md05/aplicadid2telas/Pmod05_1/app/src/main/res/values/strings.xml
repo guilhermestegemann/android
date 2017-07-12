@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pmod05_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo1">Tela 1</string>
+    <string name="titulo2">Tela 2</string>
+    <string name="proximo">Próximo</string>
+    <string name="anterior">Anterior</string>
+    <string name="status">Status</string>
+</resources>

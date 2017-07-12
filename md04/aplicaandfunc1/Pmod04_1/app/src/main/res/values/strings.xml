@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto Pmod04_1</string>
+    <string name="action_settings">Configurações</string>
+    <string name="titulo1">Exemplo Didático</string>
+    <string name="titulo2">Implementando Recursos</string>
+    <string name="modulo">Modulo 4</string>
+    <string name="nomedocurso">ADS</string>
+    <string name="descricaodotema">Android</string>
+</resources>

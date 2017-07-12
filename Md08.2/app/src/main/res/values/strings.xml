@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Md08.2</string>
+    <array name="estado_civil">
+        <item>"Solteiro(a)"</item>
+        <item>"Casado(a)"</item>
+        <item>"Divorciado(a)"</item>
+        <item>"Viúvo(a)"</item>
+        <item>"Separado(a)"</item>
+    </array>
+    <array name="cursos">
+        <item>"Java Fundamentos"</item>
+        <item>"Android Básico"</item>
+        <item>"Android Avançado"</item>
+    </array>
+    <array name="locais">
+        <item>"SP"</item>
+        <item>"RG"</item>
+        <item>"BH"</item>
+        <item>"RS"</item>
+        <item>"PR"</item>
+        <item>"BA"</item>
+    </array>
+    <string name="title_activity_tela2">Tela2</string>
+</resources>

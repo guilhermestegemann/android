@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bluetoothapp.com.br.bluetoothapp.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnVerificarAtivar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar e ativar o bluetooth" />
+
+    <Button
+        android:id="@+id/btnListarDispositivosPareados"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar dispositivos pareados" />
+
+    <Button
+        android:id="@+id/btnBuscarNovosDispositivos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar novos dispositivos" />
+
+    <TextView
+        android:id="@+id/txtMensagens"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="..." />
+
+    <ListView
+        android:id="@+id/lvDiversos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
